@@ -22,4 +22,4 @@ binary:
 	dh_builddeb
 
 %:
-	dh $@
+	dh $@ --with=systemd
